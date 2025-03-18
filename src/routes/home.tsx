@@ -1,12 +1,4 @@
-import {
-  FireExtinguisher,
-  Goal,
-  ListStart,
-  Search,
-  SearchCode,
-  SearchX,
-  Sparkles,
-} from "lucide-react";
+import { Search } from "lucide-react";
 import Marquee from "react-fast-marquee";
 
 import { Container } from "@/components/container";
@@ -40,7 +32,7 @@ const HomePage = () => {
           <p className="text-3xl font-semibold text-gray-900 text-center border rounded-xl border-black p-4">
             300+
             <span className="block text-xl text-muted-foreground font-normal">
-              Offers Recieved
+              Offers Received
             </span>
           </p>
           <p className="text-3xl font-semibold text-gray-900 text-center border rounded-xl border-sky-500 p-4">
@@ -60,7 +52,7 @@ const HomePage = () => {
           />
 
           <div className="absolute top-4 left-4 px-4 py-2 rounded-md bg-white/40 backdrop-blur-md">
-            Inteviews Copilot&copy;
+            Interviews Copilot&copy;
           </div>
 
           <div className="hidden md:block absolute w-80 bottom-4 right-4 px-4 py-2 rounded-md bg-white/60 backdrop-blur-md">
@@ -91,7 +83,7 @@ const HomePage = () => {
       <Container className="py-8 space-y-8">
         <h2 className="tracking-wide text-xl text-gray-800 font-semibold">
           Unleash your potential with personalized AI insights and targeted
-          interview practice....
+          interview practice...
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
